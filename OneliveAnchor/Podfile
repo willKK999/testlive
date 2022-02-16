@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'OneliveAnchor' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for OneliveAnchor
+  pod 'DeviceKit'             #值型替代品UIDevice
+  pod 'SnapKit'               #自动布局库
+  pod 'Alamofire'             #Http请求库
+  pod 'Kingfisher'            #网络图片请求库
+  pod 'Toast-Swift'           #提示框
+  pod 'lottie-ios'            #动画
+  pod 'HandyJSON'             #json解析
+  
+  target 'OneliveAnchorTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'OneliveAnchorUITests' do
+    # Pods for testing
+  end
+
+end
