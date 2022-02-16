@@ -1,0 +1,1700 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		568F1BBD1F3F0F4D21179F33 /* Pods_oneliveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6DAEEE5462D31F06901F5E /* Pods_oneliveTests.framework */; };
+		7B276D5F273BEFDA001247E6 /* OLWatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B276D5E273BEFDA001247E6 /* OLWatchListViewController.swift */; };
+		7B276D61273C32B1001247E6 /* OLListTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B276D60273C32B1001247E6 /* OLListTypeView.swift */; };
+		7B276D63273C32E9001247E6 /* OLWatchListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B276D62273C32E9001247E6 /* OLWatchListCell.swift */; };
+		7B276D65273D3A63001247E6 /* OLContributionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B276D64273D3A63001247E6 /* OLContributionListViewController.swift */; };
+		7B276D67273D4484001247E6 /* OLContributionListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B276D66273D4483001247E6 /* OLContributionListCell.swift */; };
+		7B276D69273E6B0B001247E6 /* OLAnchorCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B276D68273E6B0A001247E6 /* OLAnchorCardViewController.swift */; };
+		7B34B84627366F6600BDFEC4 /* CACornerMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34B84527366F6600BDFEC4 /* CACornerMask.swift */; };
+		7B34B8482739354000BDFEC4 /* OLOnlineAudienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34B8472739354000BDFEC4 /* OLOnlineAudienceViewController.swift */; };
+		7B34B84A273A5B5E00BDFEC4 /* OLPayActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34B849273A5B5E00BDFEC4 /* OLPayActivitiesViewController.swift */; };
+		7B34B84C273A750400BDFEC4 /* OLPayActivitiesTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34B84B273A750300BDFEC4 /* OLPayActivitiesTopView.swift */; };
+		7B5E9050273FDEDA006A3A53 /* OLStudioGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E904F273FDEDA006A3A53 /* OLStudioGamesViewController.swift */; };
+		7B5E9052273FF261006A3A53 /* OLStudioGamesTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E9051273FF25F006A3A53 /* OLStudioGamesTopView.swift */; };
+		7B5E9054273FF6C4006A3A53 /* OLGamesBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E9053273FF6C4006A3A53 /* OLGamesBottomView.swift */; };
+		7B5E905627400BEE006A3A53 /* OLStudioGamesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E905527400BEE006A3A53 /* OLStudioGamesCell.swift */; };
+		7B6855F12758A767002CA615 /* OLCenterTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6855F02758A767002CA615 /* OLCenterTitleCell.swift */; };
+		7B6855F62758D56B002CA615 /* AreaCodeList.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B6855F52758D56A002CA615 /* AreaCodeList.json */; };
+		7B6855F82758D86C002CA615 /* OLAreaCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6855F72758D86C002CA615 /* OLAreaCodeModel.swift */; };
+		7B68E725277597EF0060B39D /* OLLiveDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B68E724277597EF0060B39D /* OLLiveDetailVC.m */; };
+		7B777C7427635F4F0053DD25 /* OLWinningAnnounceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B777C7327635F4D0053DD25 /* OLWinningAnnounceView.swift */; };
+		7B777C76276378BA0053DD25 /* OLLiveMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B777C75276378B90053DD25 /* OLLiveMessageView.swift */; };
+		7B777C7827638D630053DD25 /* OLAdvNoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B777C7727638D630053DD25 /* OLAdvNoticeModel.swift */; };
+		7B777C7C2764E8210053DD25 /* OLFastWordsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B777C7B2764E8200053DD25 /* OLFastWordsModel.swift */; };
+		7B824F8227560C1F0031B306 /* OLMeSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B824F8127560C1F0031B306 /* OLMeSettingViewController.swift */; };
+		7B824F8427560F1E0031B306 /* OLMeInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B824F8327560F1E0031B306 /* OLMeInformationViewController.swift */; };
+		7B824F8627561FC70031B306 /* OLSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B824F8527561FC70031B306 /* OLSettingCell.swift */; };
+		7B824F88275628BF0031B306 /* OLMeFooterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B824F87275628BF0031B306 /* OLMeFooterButtonView.swift */; };
+		7B824F8A2756324D0031B306 /* OLMeInformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B824F892756324D0031B306 /* OLMeInformationCell.swift */; };
+		7B824F8C27564EC00031B306 /* OLInformationHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B824F8B27564EC00031B306 /* OLInformationHeaderView.swift */; };
+		7B84BCDE2754F79B001D0A57 /* OLMeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84BCDD2754F79B001D0A57 /* OLMeHeaderView.swift */; };
+		7B84BCE0275509F3001D0A57 /* OLMeMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84BCDF275509F3001D0A57 /* OLMeMenuView.swift */; };
+		7B84BCE227551020001D0A57 /* OLMeGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84BCE127551020001D0A57 /* OLMeGamesView.swift */; };
+		7B84BCE42755123E001D0A57 /* OLMessageAndTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B84BCE32755123E001D0A57 /* OLMessageAndTopView.swift */; };
+		7B86CEC4275A1C23004CB710 /* OLAccountsAndSecurityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CEC3275A1C23004CB710 /* OLAccountsAndSecurityViewController.swift */; };
+		7B86CEC7275A2484004CB710 /* OLSecurityHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CEC6275A2484004CB710 /* OLSecurityHeaderView.swift */; };
+		7B86CEC9275A31BD004CB710 /* OLPhoneAuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CEC8275A31B9004CB710 /* OLPhoneAuthenticationViewController.swift */; };
+		7B86CECB275A352D004CB710 /* OLTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CECA275A352D004CB710 /* OLTextFieldCell.swift */; };
+		7B86CECD275A3EE6004CB710 /* OLSetupHideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CECC275A3EE6004CB710 /* OLSetupHideViewController.swift */; };
+		7B86CECF275A4192004CB710 /* OLSetupLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CECE275A4192004CB710 /* OLSetupLanguageViewController.swift */; };
+		7B86CED1275B538B004CB710 /* OLSetupPayPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CED0275B538A004CB710 /* OLSetupPayPasswordViewController.swift */; };
+		7B86CED3275B6030004CB710 /* OLMineLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CED2275B6030004CB710 /* OLMineLevelViewController.swift */; };
+		7B86CED5275B822F004CB710 /* OLMineWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CED4275B822E004CB710 /* OLMineWalletViewController.swift */; };
+		7B86CED7275B8472004CB710 /* OLMineWalletCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86CED6275B8472004CB710 /* OLMineWalletCell.swift */; };
+		7B86D36E2744B04E0097A5D9 /* TypeConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86D36D2744B04E0097A5D9 /* TypeConvert.swift */; };
+		7B86D3702744FE300097A5D9 /* OLRoomDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86D36F2744FE300097A5D9 /* OLRoomDetailModel.swift */; };
+		7B86D372274649F90097A5D9 /* OLLiveTabItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B86D371274649F90097A5D9 /* OLLiveTabItemModel.swift */; };
+		7B8A8385275F773E00764F16 /* OLNobleProblemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A8384275F773E00764F16 /* OLNobleProblemViewController.swift */; };
+		7B8A83892760B77300764F16 /* OLSelectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A83882760B77300764F16 /* OLSelectImageView.swift */; };
+		7B8A838B2760C29C00764F16 /* OLPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A838A2760C29C00764F16 /* OLPickerView.swift */; };
+		7B8A838D2760CDCD00764F16 /* OLLiveAnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A838C2760CDCD00764F16 /* OLLiveAnnouncementView.swift */; };
+		7B8A838F2760DB1900764F16 /* OLForDiamondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A838E2760DB1900764F16 /* OLForDiamondViewController.swift */; };
+		7B8A83912760DCA200764F16 /* OLForDiamondHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A83902760DCA200764F16 /* OLForDiamondHeaderView.swift */; };
+		7B8A83932760DFA300764F16 /* OLForDiamondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8A83922760DFA300764F16 /* OLForDiamondCell.swift */; };
+		7B8AF34A275751B4002D9DF8 /* OLEditInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AF349275751B4002D9DF8 /* OLEditInfoViewController.swift */; };
+		7B8AF34C27576B98002D9DF8 /* OLEditNicknameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AF34B27576B98002D9DF8 /* OLEditNicknameViewController.swift */; };
+		7B8AF34E27576DD9002D9DF8 /* OLEditSignatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8AF34D27576DD9002D9DF8 /* OLEditSignatureViewController.swift */; };
+		7B8D1FCA2742A178003BAB1E /* libonelive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8D1FC92742A178003BAB1E /* libonelive.a */; };
+		7B8D1FCE274380EE003BAB1E /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D1FCC274380EE003BAB1E /* AESCrypt.m */; };
+		7B8D1FD0274381D1003BAB1E /* AESCryptManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D1FCF274381D1003BAB1E /* AESCryptManager.swift */; };
+		7B8DA6CE275DF66C000ABA32 /* OLMineFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6CD275DF66C000ABA32 /* OLMineFollowViewController.swift */; };
+		7B8DA6D0275DF72B000ABA32 /* OLMineFansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6CF275DF72B000ABA32 /* OLMineFansViewController.swift */; };
+		7B8DA6D2275DF88A000ABA32 /* OLUserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6D1275DF88A000ABA32 /* OLUserInfoCell.swift */; };
+		7B8DA6D4275E0021000ABA32 /* OLMineActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6D3275E0021000ABA32 /* OLMineActivityViewController.swift */; };
+		7B8DA6D6275E0260000ABA32 /* OLMineActivityNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6D5275E0260000ABA32 /* OLMineActivityNavigationBar.swift */; };
+		7B8DA6D8275E0B33000ABA32 /* OLNavBarTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6D7275E0B33000ABA32 /* OLNavBarTitleCell.swift */; };
+		7B8DA6DA275E0CA2000ABA32 /* OLMinePWRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6D9275E0CA2000ABA32 /* OLMinePWRecordViewController.swift */; };
+		7B8DA6DC275E0EF4000ABA32 /* OLMineRecordTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6DB275E0EF4000ABA32 /* OLMineRecordTopView.swift */; };
+		7B8DA6DE275E112E000ABA32 /* OLRecordPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6DD275E112E000ABA32 /* OLRecordPageViewController.swift */; };
+		7B8DA6E0275E14AF000ABA32 /* OLRecordTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6DF275E14AF000ABA32 /* OLRecordTitleCell.swift */; };
+		7B8DA6E2275E1750000ABA32 /* OLRecordInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6E1275E1750000ABA32 /* OLRecordInfoCell.swift */; };
+		7B8DA6E4275F4956000ABA32 /* OLMineMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6E3275F4956000ABA32 /* OLMineMessageViewController.swift */; };
+		7B8DA6E6275F4FE4000ABA32 /* OLMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6E5275F4FE4000ABA32 /* OLMessageCell.swift */; };
+		7B8DA6E8275F5D67000ABA32 /* OLSystemMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6E7275F5D67000ABA32 /* OLSystemMessageViewController.swift */; };
+		7B8DA6EA275F6386000ABA32 /* OLSystemMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6E9275F6386000ABA32 /* OLSystemMessageCell.swift */; };
+		7B8DA6EC275F6EDB000ABA32 /* OLMineNobleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6EB275F6EDA000ABA32 /* OLMineNobleViewController.swift */; };
+		7B8DA6EE275F70A7000ABA32 /* OLNobleTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8DA6ED275F70A7000ABA32 /* OLNobleTopView.swift */; };
+		7B99D78D2733A784007E687E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D78C2733A784007E687E /* AppDelegate.swift */; };
+		7B99D7962733A787007E687E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B99D7952733A787007E687E /* Assets.xcassets */; };
+		7B99D7992733A787007E687E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B99D7972733A787007E687E /* LaunchScreen.storyboard */; };
+		7B99D7A42733A787007E687E /* oneliveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7A32733A787007E687E /* oneliveTests.swift */; };
+		7B99D7AE2733A787007E687E /* oneliveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7AD2733A787007E687E /* oneliveUITests.swift */; };
+		7B99D7B02733A787007E687E /* oneliveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7AF2733A787007E687E /* oneliveUITestsLaunchTests.swift */; };
+		7B99D7D42733AEEF007E687E /* OLBaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7D32733AEEF007E687E /* OLBaseResponse.swift */; };
+		7B99D7D62733B009007E687E /* OLBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7D52733B009007E687E /* OLBaseModel.swift */; };
+		7B99D7D82733B0C2007E687E /* OLNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7D72733B0C2007E687E /* OLNavigationController.swift */; };
+		7B99D7DA2733B128007E687E /* OLTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7D92733B128007E687E /* OLTabBarViewController.swift */; };
+		7B99D7DE2733B183007E687E /* OLLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7DD2733B183007E687E /* OLLiveViewController.swift */; };
+		7B99D7E02733B19F007E687E /* OLGamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7DF2733B19F007E687E /* OLGamesViewController.swift */; };
+		7B99D7E22733B1B6007E687E /* OLPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7E12733B1B6007E687E /* OLPayViewController.swift */; };
+		7B99D7E42733B1D1007E687E /* OLMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7E32733B1D1007E687E /* OLMeViewController.swift */; };
+		7B99D7E62733B849007E687E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B99D7E52733B849007E687E /* Main.storyboard */; };
+		7B99D7E82733B851007E687E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7E72733B851007E687E /* ViewController.swift */; };
+		7B99D7EE2733BBEA007E687E /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7ED2733BBEA007E687E /* UIFont.swift */; };
+		7B99D7F22733BF4E007E687E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7F12733BF4E007E687E /* Constants.swift */; };
+		7B99D7F42733C1C8007E687E /* OLLiveRecommendedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7F32733C1C8007E687E /* OLLiveRecommendedViewController.swift */; };
+		7B99D7F62733C1DA007E687E /* OLLiveFollowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7F52733C1DA007E687E /* OLLiveFollowViewController.swift */; };
+		7B99D7F82733C1F3007E687E /* OLLiveHotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7F72733C1F3007E687E /* OLLiveHotViewController.swift */; };
+		7B99D7FB2733C216007E687E /* OLLiveNearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7FA2733C216007E687E /* OLLiveNearViewController.swift */; };
+		7B99D7FD2733C22C007E687E /* OLLiveGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7FC2733C22C007E687E /* OLLiveGameViewController.swift */; };
+		7B99D7FF2733C247007E687E /* OLLiveDetailParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D7FE2733C247007E687E /* OLLiveDetailParentViewController.swift */; };
+		7B99D8012733C262007E687E /* OLLiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8002733C262007E687E /* OLLiveDetailViewController.swift */; };
+		7B99D8032733C275007E687E /* OLRecommendedAnchorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8022733C274007E687E /* OLRecommendedAnchorViewController.swift */; };
+		7B99D80A2733C2F9007E687E /* OLSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8092733C2F9007E687E /* OLSearchViewController.swift */; };
+		7B99D80C2733C314007E687E /* OLSearchCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D80B2733C314007E687E /* OLSearchCustomNavigationBar.swift */; };
+		7B99D80E2733C336007E687E /* OLSearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D80D2733C336007E687E /* OLSearchTextField.swift */; };
+		7B99D8102733C4E7007E687E /* OLLiveCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D80F2733C4E7007E687E /* OLLiveCustomNavigationBar.swift */; };
+		7B99D8122733C4F9007E687E /* OLLiveTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8112733C4F8007E687E /* OLLiveTitleCell.swift */; };
+		7B99D8142733C520007E687E /* OLLiveShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8132733C520007E687E /* OLLiveShowCell.swift */; };
+		7B99D8162733C535007E687E /* OLLiveFollowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8152733C535007E687E /* OLLiveFollowHeaderView.swift */; };
+		7B99D8182733C549007E687E /* OLLiveRecommendedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8172733C549007E687E /* OLLiveRecommendedHeaderView.swift */; };
+		7B99D81A2733C55B007E687E /* OLRecommendedHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8192733C55B007E687E /* OLRecommendedHeaderCell.swift */; };
+		7B99D81C2733C56C007E687E /* OLLiveNowHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D81B2733C56C007E687E /* OLLiveNowHeaderView.swift */; };
+		7B99D81E2733C582007E687E /* OLLiveBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D81D2733C582007E687E /* OLLiveBannerView.swift */; };
+		7B99D8202733EDA7007E687E /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D81F2733EDA7007E687E /* UIView.swift */; };
+		7B99D8222733EF86007E687E /* OLAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8212733EF86007E687E /* OLAPI.swift */; };
+		7B99D8242733F5F7007E687E /* OLAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B99D8232733F5F7007E687E /* OLAPIManager.swift */; };
+		7BD5577027340DD100F1E779 /* OLColumnModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5576F27340DD100F1E779 /* OLColumnModel.swift */; };
+		7BD557722734283400F1E779 /* OLLiveListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD557712734283400F1E779 /* OLLiveListModel.swift */; };
+		7BD557742734285500F1E779 /* OLLiveItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD557732734285500F1E779 /* OLLiveItemModel.swift */; };
+		7BD55778273428CF00F1E779 /* OLAdvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55777273428CF00F1E779 /* OLAdvModel.swift */; };
+		7BD5577A27350B0A00F1E779 /* OLNavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5577927350B0900F1E779 /* OLNavigationManager.swift */; };
+		7BD5577D2735446800F1E779 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5577C2735446800F1E779 /* UIColor.swift */; };
+		7BD557802735484F00F1E779 /* OLAnchorInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5577F2735484F00F1E779 /* OLAnchorInfoView.swift */; };
+		7BD557822735499A00F1E779 /* OLLiveDetailTopMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD557812735499A00F1E779 /* OLLiveDetailTopMenuView.swift */; };
+		7BD557842735959E00F1E779 /* OLOnlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD557832735959E00F1E779 /* OLOnlineView.swift */; };
+		7BD5578627359D3800F1E779 /* OLRecommendedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5578527359D3800F1E779 /* OLRecommendedView.swift */; };
+		7BD5578827364A1500F1E779 /* OLLiveDetailCenterMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5578727364A1400F1E779 /* OLLiveDetailCenterMenuView.swift */; };
+		7BD5578A273651DB00F1E779 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD55789273651DB00F1E779 /* UIButton.swift */; };
+		7BD5578C2736589E00F1E779 /* OLLiveDetailBottomMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5578B2736589E00F1E779 /* OLLiveDetailBottomMenuView.swift */; };
+		7BD5578E27366AFA00F1E779 /* OLAnchorInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD5578D27366AF900F1E779 /* OLAnchorInfoViewController.swift */; };
+		7BDF72FF2748E7E200D43941 /* OLGuardianInstructionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDF72FE2748E7E200D43941 /* OLGuardianInstructionsController.swift */; };
+		7BF39179274BBCB4002A2981 /* OLAnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF39178274BBCB4002A2981 /* OLAnchorModel.swift */; };
+		7BF3917B274CD7A5002A2981 /* OLLoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3917A274CD7A5002A2981 /* OLLoginManager.swift */; };
+		7BF3917D274E3B1A002A2981 /* OLUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3917C274E3B19002A2981 /* OLUserModel.swift */; };
+		7BF39184274F5232002A2981 /* OLActListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF39183274F5231002A2981 /* OLActListModel.swift */; };
+		7BF3918627511765002A2981 /* OLLiveUnattentionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3918527511765002A2981 /* OLLiveUnattentionView.swift */; };
+		7BF39189275122C8002A2981 /* OLProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF39188275122C7002A2981 /* OLProgressHUD.m */; };
+		7BF3918E275126DD002A2981 /* OLBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF3918D275126DD002A2981 /* OLBaseViewController.swift */; };
+		7BF39194275258C0002A2981 /* OLLotteryGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF39193275258BF002A2981 /* OLLotteryGameModel.swift */; };
+		7BF391962754C04B002A2981 /* OLCustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF391952754C04B002A2981 /* OLCustomNavigationBar.swift */; };
+		7BF391982754C544002A2981 /* OLMeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF391972754C544002A2981 /* OLMeCell.swift */; };
+		7E0FA6168A551118DD6B3774 /* Pods_onelive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45FD23D75809E0940C099BA0 /* Pods_onelive.framework */; };
+		AFFC401B1D4FA6AC05A35103 /* Pods_onelive_oneliveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BBC39BD27955804BD53CE2D /* Pods_onelive_oneliveUITests.framework */; };
+		E261E02D2782AB1C0036F9D6 /* PortraitLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E261E02B2782AB1C0036F9D6 /* PortraitLiveViewController.m */; };
+		E261E02E2782AB1C0036F9D6 /* PortraitLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E261E02C2782AB1C0036F9D6 /* PortraitLiveViewController.xib */; };
+		E261E0342782D3980036F9D6 /* OLKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = E261E0332782D3980036F9D6 /* OLKeychain.m */; };
+		E2B001FE277B2EC100B72FBD /* QNNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B001FA277B2EC100B72FBD /* QNNetworkCache.m */; };
+		E2B001FF277B2EC100B72FBD /* QNNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B001FD277B2EC100B72FBD /* QNNetworkHelper.m */; };
+		E2B00202277B2F0000B72FBD /* CommonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B00200277B2F0000B72FBD /* CommonManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B99D7A02733A787007E687E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B99D7812733A784007E687E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B99D7882733A784007E687E;
+			remoteInfo = onelive;
+		};
+		7B99D7AA2733A787007E687E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B99D7812733A784007E687E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B99D7882733A784007E687E;
+			remoteInfo = onelive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D418A53DA2C6D4FDEB67F41 /* Pods-oneliveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneliveTests.debug.xcconfig"; path = "Target Support Files/Pods-oneliveTests/Pods-oneliveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A6DAEEE5462D31F06901F5E /* Pods_oneliveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oneliveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45FD23D75809E0940C099BA0 /* Pods_onelive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onelive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBC39BD27955804BD53CE2D /* Pods_onelive_oneliveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_onelive_oneliveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE55E602316A1A7D38B230D /* Pods-onelive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onelive.debug.xcconfig"; path = "Target Support Files/Pods-onelive/Pods-onelive.debug.xcconfig"; sourceTree = "<group>"; };
+		6613259F74C24C2747D5D41B /* Pods-oneliveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oneliveTests.release.xcconfig"; path = "Target Support Files/Pods-oneliveTests/Pods-oneliveTests.release.xcconfig"; sourceTree = "<group>"; };
+		67FE55F980C45FEEEE0848D3 /* Pods-onelive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onelive.release.xcconfig"; path = "Target Support Files/Pods-onelive/Pods-onelive.release.xcconfig"; sourceTree = "<group>"; };
+		7B276D5E273BEFDA001247E6 /* OLWatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLWatchListViewController.swift; sourceTree = "<group>"; };
+		7B276D60273C32B1001247E6 /* OLListTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLListTypeView.swift; sourceTree = "<group>"; };
+		7B276D62273C32E9001247E6 /* OLWatchListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLWatchListCell.swift; sourceTree = "<group>"; };
+		7B276D64273D3A63001247E6 /* OLContributionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLContributionListViewController.swift; sourceTree = "<group>"; };
+		7B276D66273D4483001247E6 /* OLContributionListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLContributionListCell.swift; sourceTree = "<group>"; };
+		7B276D68273E6B0A001247E6 /* OLAnchorCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAnchorCardViewController.swift; sourceTree = "<group>"; };
+		7B34B84527366F6600BDFEC4 /* CACornerMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CACornerMask.swift; sourceTree = "<group>"; };
+		7B34B8472739354000BDFEC4 /* OLOnlineAudienceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLOnlineAudienceViewController.swift; sourceTree = "<group>"; };
+		7B34B849273A5B5E00BDFEC4 /* OLPayActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLPayActivitiesViewController.swift; sourceTree = "<group>"; };
+		7B34B84B273A750300BDFEC4 /* OLPayActivitiesTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLPayActivitiesTopView.swift; sourceTree = "<group>"; };
+		7B5E904F273FDEDA006A3A53 /* OLStudioGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLStudioGamesViewController.swift; sourceTree = "<group>"; };
+		7B5E9051273FF25F006A3A53 /* OLStudioGamesTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLStudioGamesTopView.swift; sourceTree = "<group>"; };
+		7B5E9053273FF6C4006A3A53 /* OLGamesBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLGamesBottomView.swift; sourceTree = "<group>"; };
+		7B5E905527400BEE006A3A53 /* OLStudioGamesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLStudioGamesCell.swift; sourceTree = "<group>"; };
+		7B5E905A27423DEB006A3A53 /* Onelive-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Onelive-Bridging-Header.h"; sourceTree = "<group>"; };
+		7B6855F02758A767002CA615 /* OLCenterTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLCenterTitleCell.swift; sourceTree = "<group>"; };
+		7B6855F52758D56A002CA615 /* AreaCodeList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AreaCodeList.json; sourceTree = "<group>"; };
+		7B6855F72758D86C002CA615 /* OLAreaCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAreaCodeModel.swift; sourceTree = "<group>"; };
+		7B68E723277597EF0060B39D /* OLLiveDetailVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLLiveDetailVC.h; sourceTree = "<group>"; };
+		7B68E724277597EF0060B39D /* OLLiveDetailVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLLiveDetailVC.m; sourceTree = "<group>"; };
+		7B777C7327635F4D0053DD25 /* OLWinningAnnounceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLWinningAnnounceView.swift; sourceTree = "<group>"; };
+		7B777C75276378B90053DD25 /* OLLiveMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveMessageView.swift; sourceTree = "<group>"; };
+		7B777C7727638D630053DD25 /* OLAdvNoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAdvNoticeModel.swift; sourceTree = "<group>"; };
+		7B777C7B2764E8200053DD25 /* OLFastWordsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLFastWordsModel.swift; sourceTree = "<group>"; };
+		7B824F8127560C1F0031B306 /* OLMeSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeSettingViewController.swift; sourceTree = "<group>"; };
+		7B824F8327560F1E0031B306 /* OLMeInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeInformationViewController.swift; sourceTree = "<group>"; };
+		7B824F8527561FC70031B306 /* OLSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSettingCell.swift; sourceTree = "<group>"; };
+		7B824F87275628BF0031B306 /* OLMeFooterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeFooterButtonView.swift; sourceTree = "<group>"; };
+		7B824F892756324D0031B306 /* OLMeInformationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeInformationCell.swift; sourceTree = "<group>"; };
+		7B824F8B27564EC00031B306 /* OLInformationHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLInformationHeaderView.swift; sourceTree = "<group>"; };
+		7B84BCDD2754F79B001D0A57 /* OLMeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeHeaderView.swift; sourceTree = "<group>"; };
+		7B84BCDF275509F3001D0A57 /* OLMeMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeMenuView.swift; sourceTree = "<group>"; };
+		7B84BCE127551020001D0A57 /* OLMeGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeGamesView.swift; sourceTree = "<group>"; };
+		7B84BCE32755123E001D0A57 /* OLMessageAndTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMessageAndTopView.swift; sourceTree = "<group>"; };
+		7B86CEC3275A1C23004CB710 /* OLAccountsAndSecurityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAccountsAndSecurityViewController.swift; sourceTree = "<group>"; };
+		7B86CEC6275A2484004CB710 /* OLSecurityHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSecurityHeaderView.swift; sourceTree = "<group>"; };
+		7B86CEC8275A31B9004CB710 /* OLPhoneAuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLPhoneAuthenticationViewController.swift; sourceTree = "<group>"; };
+		7B86CECA275A352D004CB710 /* OLTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLTextFieldCell.swift; sourceTree = "<group>"; };
+		7B86CECC275A3EE6004CB710 /* OLSetupHideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSetupHideViewController.swift; sourceTree = "<group>"; };
+		7B86CECE275A4192004CB710 /* OLSetupLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSetupLanguageViewController.swift; sourceTree = "<group>"; };
+		7B86CED0275B538A004CB710 /* OLSetupPayPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSetupPayPasswordViewController.swift; sourceTree = "<group>"; };
+		7B86CED2275B6030004CB710 /* OLMineLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineLevelViewController.swift; sourceTree = "<group>"; };
+		7B86CED4275B822E004CB710 /* OLMineWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineWalletViewController.swift; sourceTree = "<group>"; };
+		7B86CED6275B8472004CB710 /* OLMineWalletCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineWalletCell.swift; sourceTree = "<group>"; };
+		7B86D36D2744B04E0097A5D9 /* TypeConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeConvert.swift; sourceTree = "<group>"; };
+		7B86D36F2744FE300097A5D9 /* OLRoomDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLRoomDetailModel.swift; sourceTree = "<group>"; };
+		7B86D371274649F90097A5D9 /* OLLiveTabItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveTabItemModel.swift; sourceTree = "<group>"; };
+		7B8A8384275F773E00764F16 /* OLNobleProblemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLNobleProblemViewController.swift; sourceTree = "<group>"; };
+		7B8A83882760B77300764F16 /* OLSelectImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLSelectImageView.swift; sourceTree = "<group>"; };
+		7B8A838A2760C29C00764F16 /* OLPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLPickerView.swift; sourceTree = "<group>"; };
+		7B8A838C2760CDCD00764F16 /* OLLiveAnnouncementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveAnnouncementView.swift; sourceTree = "<group>"; };
+		7B8A838E2760DB1900764F16 /* OLForDiamondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLForDiamondViewController.swift; sourceTree = "<group>"; };
+		7B8A83902760DCA200764F16 /* OLForDiamondHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLForDiamondHeaderView.swift; sourceTree = "<group>"; };
+		7B8A83922760DFA300764F16 /* OLForDiamondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLForDiamondCell.swift; sourceTree = "<group>"; };
+		7B8AF349275751B4002D9DF8 /* OLEditInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLEditInfoViewController.swift; sourceTree = "<group>"; };
+		7B8AF34B27576B98002D9DF8 /* OLEditNicknameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLEditNicknameViewController.swift; sourceTree = "<group>"; };
+		7B8AF34D27576DD9002D9DF8 /* OLEditSignatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLEditSignatureViewController.swift; sourceTree = "<group>"; };
+		7B8D1FC82742A16C003BAB1E /* OLPixelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLPixelManager.h; sourceTree = "<group>"; };
+		7B8D1FC92742A178003BAB1E /* libonelive.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libonelive.a; sourceTree = "<group>"; };
+		7B8D1FCC274380EE003BAB1E /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		7B8D1FCD274380EE003BAB1E /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		7B8D1FCF274381D1003BAB1E /* AESCryptManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESCryptManager.swift; sourceTree = "<group>"; };
+		7B8DA6CD275DF66C000ABA32 /* OLMineFollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineFollowViewController.swift; sourceTree = "<group>"; };
+		7B8DA6CF275DF72B000ABA32 /* OLMineFansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineFansViewController.swift; sourceTree = "<group>"; };
+		7B8DA6D1275DF88A000ABA32 /* OLUserInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLUserInfoCell.swift; sourceTree = "<group>"; };
+		7B8DA6D3275E0021000ABA32 /* OLMineActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineActivityViewController.swift; sourceTree = "<group>"; };
+		7B8DA6D5275E0260000ABA32 /* OLMineActivityNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineActivityNavigationBar.swift; sourceTree = "<group>"; };
+		7B8DA6D7275E0B33000ABA32 /* OLNavBarTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLNavBarTitleCell.swift; sourceTree = "<group>"; };
+		7B8DA6D9275E0CA2000ABA32 /* OLMinePWRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMinePWRecordViewController.swift; sourceTree = "<group>"; };
+		7B8DA6DB275E0EF4000ABA32 /* OLMineRecordTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineRecordTopView.swift; sourceTree = "<group>"; };
+		7B8DA6DD275E112E000ABA32 /* OLRecordPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLRecordPageViewController.swift; sourceTree = "<group>"; };
+		7B8DA6DF275E14AF000ABA32 /* OLRecordTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLRecordTitleCell.swift; sourceTree = "<group>"; };
+		7B8DA6E1275E1750000ABA32 /* OLRecordInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLRecordInfoCell.swift; sourceTree = "<group>"; };
+		7B8DA6E3275F4956000ABA32 /* OLMineMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineMessageViewController.swift; sourceTree = "<group>"; };
+		7B8DA6E5275F4FE4000ABA32 /* OLMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMessageCell.swift; sourceTree = "<group>"; };
+		7B8DA6E7275F5D67000ABA32 /* OLSystemMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSystemMessageViewController.swift; sourceTree = "<group>"; };
+		7B8DA6E9275F6386000ABA32 /* OLSystemMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSystemMessageCell.swift; sourceTree = "<group>"; };
+		7B8DA6EB275F6EDA000ABA32 /* OLMineNobleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMineNobleViewController.swift; sourceTree = "<group>"; };
+		7B8DA6ED275F70A7000ABA32 /* OLNobleTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLNobleTopView.swift; sourceTree = "<group>"; };
+		7B99D7892733A784007E687E /* onelive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onelive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B99D78C2733A784007E687E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B99D7952733A787007E687E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B99D7982733A787007E687E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B99D79A2733A787007E687E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B99D79F2733A787007E687E /* oneliveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneliveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B99D7A32733A787007E687E /* oneliveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneliveTests.swift; sourceTree = "<group>"; };
+		7B99D7A92733A787007E687E /* oneliveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneliveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B99D7AD2733A787007E687E /* oneliveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneliveUITests.swift; sourceTree = "<group>"; };
+		7B99D7AF2733A787007E687E /* oneliveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneliveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B99D7D32733AEEF007E687E /* OLBaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLBaseResponse.swift; sourceTree = "<group>"; };
+		7B99D7D52733B009007E687E /* OLBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLBaseModel.swift; sourceTree = "<group>"; };
+		7B99D7D72733B0C2007E687E /* OLNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLNavigationController.swift; sourceTree = "<group>"; };
+		7B99D7D92733B128007E687E /* OLTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLTabBarViewController.swift; sourceTree = "<group>"; };
+		7B99D7DD2733B183007E687E /* OLLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveViewController.swift; sourceTree = "<group>"; };
+		7B99D7DF2733B19F007E687E /* OLGamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLGamesViewController.swift; sourceTree = "<group>"; };
+		7B99D7E12733B1B6007E687E /* OLPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLPayViewController.swift; sourceTree = "<group>"; };
+		7B99D7E32733B1D1007E687E /* OLMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeViewController.swift; sourceTree = "<group>"; };
+		7B99D7E52733B849007E687E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7B99D7E72733B851007E687E /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B99D7ED2733BBEA007E687E /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
+		7B99D7F12733BF4E007E687E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		7B99D7F32733C1C8007E687E /* OLLiveRecommendedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveRecommendedViewController.swift; sourceTree = "<group>"; };
+		7B99D7F52733C1DA007E687E /* OLLiveFollowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveFollowViewController.swift; sourceTree = "<group>"; };
+		7B99D7F72733C1F3007E687E /* OLLiveHotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveHotViewController.swift; sourceTree = "<group>"; };
+		7B99D7FA2733C216007E687E /* OLLiveNearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveNearViewController.swift; sourceTree = "<group>"; };
+		7B99D7FC2733C22C007E687E /* OLLiveGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveGameViewController.swift; sourceTree = "<group>"; };
+		7B99D7FE2733C247007E687E /* OLLiveDetailParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveDetailParentViewController.swift; sourceTree = "<group>"; };
+		7B99D8002733C262007E687E /* OLLiveDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveDetailViewController.swift; sourceTree = "<group>"; };
+		7B99D8022733C274007E687E /* OLRecommendedAnchorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLRecommendedAnchorViewController.swift; sourceTree = "<group>"; };
+		7B99D8092733C2F9007E687E /* OLSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSearchViewController.swift; sourceTree = "<group>"; };
+		7B99D80B2733C314007E687E /* OLSearchCustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSearchCustomNavigationBar.swift; sourceTree = "<group>"; };
+		7B99D80D2733C336007E687E /* OLSearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLSearchTextField.swift; sourceTree = "<group>"; };
+		7B99D80F2733C4E7007E687E /* OLLiveCustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveCustomNavigationBar.swift; sourceTree = "<group>"; };
+		7B99D8112733C4F8007E687E /* OLLiveTitleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveTitleCell.swift; sourceTree = "<group>"; };
+		7B99D8132733C520007E687E /* OLLiveShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveShowCell.swift; sourceTree = "<group>"; };
+		7B99D8152733C535007E687E /* OLLiveFollowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveFollowHeaderView.swift; sourceTree = "<group>"; };
+		7B99D8172733C549007E687E /* OLLiveRecommendedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveRecommendedHeaderView.swift; sourceTree = "<group>"; };
+		7B99D8192733C55B007E687E /* OLRecommendedHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLRecommendedHeaderCell.swift; sourceTree = "<group>"; };
+		7B99D81B2733C56C007E687E /* OLLiveNowHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveNowHeaderView.swift; sourceTree = "<group>"; };
+		7B99D81D2733C582007E687E /* OLLiveBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveBannerView.swift; sourceTree = "<group>"; };
+		7B99D81F2733EDA7007E687E /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7B99D8212733EF86007E687E /* OLAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAPI.swift; sourceTree = "<group>"; };
+		7B99D8232733F5F7007E687E /* OLAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAPIManager.swift; sourceTree = "<group>"; };
+		7BD5576F27340DD100F1E779 /* OLColumnModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLColumnModel.swift; sourceTree = "<group>"; };
+		7BD557712734283400F1E779 /* OLLiveListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveListModel.swift; sourceTree = "<group>"; };
+		7BD557732734285500F1E779 /* OLLiveItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveItemModel.swift; sourceTree = "<group>"; };
+		7BD55777273428CF00F1E779 /* OLAdvModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAdvModel.swift; sourceTree = "<group>"; };
+		7BD5577927350B0900F1E779 /* OLNavigationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLNavigationManager.swift; sourceTree = "<group>"; };
+		7BD5577C2735446800F1E779 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		7BD5577F2735484F00F1E779 /* OLAnchorInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAnchorInfoView.swift; sourceTree = "<group>"; };
+		7BD557812735499A00F1E779 /* OLLiveDetailTopMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveDetailTopMenuView.swift; sourceTree = "<group>"; };
+		7BD557832735959E00F1E779 /* OLOnlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLOnlineView.swift; sourceTree = "<group>"; };
+		7BD5578527359D3800F1E779 /* OLRecommendedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLRecommendedView.swift; sourceTree = "<group>"; };
+		7BD5578727364A1400F1E779 /* OLLiveDetailCenterMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveDetailCenterMenuView.swift; sourceTree = "<group>"; };
+		7BD55789273651DB00F1E779 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		7BD5578B2736589E00F1E779 /* OLLiveDetailBottomMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLiveDetailBottomMenuView.swift; sourceTree = "<group>"; };
+		7BD5578D27366AF900F1E779 /* OLAnchorInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAnchorInfoViewController.swift; sourceTree = "<group>"; };
+		7BDF72FE2748E7E200D43941 /* OLGuardianInstructionsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLGuardianInstructionsController.swift; sourceTree = "<group>"; };
+		7BF39178274BBCB4002A2981 /* OLAnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLAnchorModel.swift; sourceTree = "<group>"; };
+		7BF3917A274CD7A5002A2981 /* OLLoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLoginManager.swift; sourceTree = "<group>"; };
+		7BF3917C274E3B19002A2981 /* OLUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLUserModel.swift; sourceTree = "<group>"; };
+		7BF39183274F5231002A2981 /* OLActListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLActListModel.swift; sourceTree = "<group>"; };
+		7BF3918527511765002A2981 /* OLLiveUnattentionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OLLiveUnattentionView.swift; sourceTree = "<group>"; };
+		7BF39187275122C7002A2981 /* OLProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OLProgressHUD.h; sourceTree = "<group>"; };
+		7BF39188275122C7002A2981 /* OLProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OLProgressHUD.m; sourceTree = "<group>"; };
+		7BF3918D275126DD002A2981 /* OLBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLBaseViewController.swift; sourceTree = "<group>"; };
+		7BF39193275258BF002A2981 /* OLLotteryGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLLotteryGameModel.swift; sourceTree = "<group>"; };
+		7BF391952754C04B002A2981 /* OLCustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLCustomNavigationBar.swift; sourceTree = "<group>"; };
+		7BF391972754C544002A2981 /* OLMeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OLMeCell.swift; sourceTree = "<group>"; };
+		AD62EE4D1F3BF17344ED9C65 /* Pods-onelive-oneliveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onelive-oneliveUITests.release.xcconfig"; path = "Target Support Files/Pods-onelive-oneliveUITests/Pods-onelive-oneliveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C5EF6E3F21F898F8FECD4B1B /* Pods-onelive-oneliveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onelive-oneliveUITests.debug.xcconfig"; path = "Target Support Files/Pods-onelive-oneliveUITests/Pods-onelive-oneliveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E261E02A2782AB1C0036F9D6 /* PortraitLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PortraitLiveViewController.h; sourceTree = "<group>"; };
+		E261E02B2782AB1C0036F9D6 /* PortraitLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PortraitLiveViewController.m; sourceTree = "<group>"; };
+		E261E02C2782AB1C0036F9D6 /* PortraitLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortraitLiveViewController.xib; sourceTree = "<group>"; };
+		E261E02F2782B5FA0036F9D6 /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
+		E261E0302782B6E20036F9D6 /* URLMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLMacros.h; sourceTree = "<group>"; };
+		E261E0322782D3980036F9D6 /* OLKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OLKeychain.h; sourceTree = "<group>"; };
+		E261E0332782D3980036F9D6 /* OLKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OLKeychain.m; sourceTree = "<group>"; };
+		E2B001FA277B2EC100B72FBD /* QNNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNNetworkCache.m; sourceTree = "<group>"; };
+		E2B001FB277B2EC100B72FBD /* QNNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNNetworkHelper.h; sourceTree = "<group>"; };
+		E2B001FC277B2EC100B72FBD /* QNNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNNetworkCache.h; sourceTree = "<group>"; };
+		E2B001FD277B2EC100B72FBD /* QNNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNNetworkHelper.m; sourceTree = "<group>"; };
+		E2B00200277B2F0000B72FBD /* CommonManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonManager.m; sourceTree = "<group>"; };
+		E2B00201277B2F0000B72FBD /* CommonManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B99D7862733A784007E687E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8D1FCA2742A178003BAB1E /* libonelive.a in Frameworks */,
+				7E0FA6168A551118DD6B3774 /* Pods_onelive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B99D79C2733A787007E687E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568F1BBD1F3F0F4D21179F33 /* Pods_oneliveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B99D7A62733A787007E687E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFC401B1D4FA6AC05A35103 /* Pods_onelive_oneliveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E04ED89D262B007D4A5CA95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FE55E602316A1A7D38B230D /* Pods-onelive.debug.xcconfig */,
+				67FE55F980C45FEEEE0848D3 /* Pods-onelive.release.xcconfig */,
+				C5EF6E3F21F898F8FECD4B1B /* Pods-onelive-oneliveUITests.debug.xcconfig */,
+				AD62EE4D1F3BF17344ED9C65 /* Pods-onelive-oneliveUITests.release.xcconfig */,
+				1D418A53DA2C6D4FDEB67F41 /* Pods-oneliveTests.debug.xcconfig */,
+				6613259F74C24C2747D5D41B /* Pods-oneliveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7B5E905727423410006A3A53 /* Librarys */ = {
+			isa = PBXGroup;
+			children = (
+				7B5E905A27423DEB006A3A53 /* Onelive-Bridging-Header.h */,
+				7B8D1FCB274380D5003BAB1E /* AESCrypt */,
+				7B8D1FC72742A154003BAB1E /* OLPixel */,
+			);
+			path = Librarys;
+			sourceTree = "<group>";
+		};
+		7B6855F42758D53A002CA615 /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				7B6855F52758D56A002CA615 /* AreaCodeList.json */,
+			);
+			path = Jsons;
+			sourceTree = "<group>";
+		};
+		7B86CEC5275A1C55004CB710 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7B824F8127560C1F0031B306 /* OLMeSettingViewController.swift */,
+				7B86CEC3275A1C23004CB710 /* OLAccountsAndSecurityViewController.swift */,
+				7B86CEC8275A31B9004CB710 /* OLPhoneAuthenticationViewController.swift */,
+				7B86CECC275A3EE6004CB710 /* OLSetupHideViewController.swift */,
+				7B86CECE275A4192004CB710 /* OLSetupLanguageViewController.swift */,
+				7B86CED0275B538A004CB710 /* OLSetupPayPasswordViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		7B86D36C2744AFE80097A5D9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7B86D36D2744B04E0097A5D9 /* TypeConvert.swift */,
+				7BF39187275122C7002A2981 /* OLProgressHUD.h */,
+				7BF39188275122C7002A2981 /* OLProgressHUD.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7B8D1FC72742A154003BAB1E /* OLPixel */ = {
+			isa = PBXGroup;
+			children = (
+				7B8D1FC92742A178003BAB1E /* libonelive.a */,
+				7B8D1FC82742A16C003BAB1E /* OLPixelManager.h */,
+			);
+			path = OLPixel;
+			sourceTree = "<group>";
+		};
+		7B8D1FCB274380D5003BAB1E /* AESCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				7B8D1FCD274380EE003BAB1E /* AESCrypt.h */,
+				7B8D1FCC274380EE003BAB1E /* AESCrypt.m */,
+				7B8D1FCF274381D1003BAB1E /* AESCryptManager.swift */,
+			);
+			path = AESCrypt;
+			sourceTree = "<group>";
+		};
+		7B99D7802733A784007E687E = {
+			isa = PBXGroup;
+			children = (
+				7B99D78B2733A784007E687E /* onelive */,
+				7B99D7A22733A787007E687E /* oneliveTests */,
+				7B99D7AC2733A787007E687E /* oneliveUITests */,
+				7B99D78A2733A784007E687E /* Products */,
+				4E04ED89D262B007D4A5CA95 /* Pods */,
+				9617A5826295DB1A44004E32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B99D78A2733A784007E687E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7892733A784007E687E /* onelive.app */,
+				7B99D79F2733A787007E687E /* oneliveTests.xctest */,
+				7B99D7A92733A787007E687E /* oneliveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B99D78B2733A784007E687E /* onelive */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7BC2733AA87007E687E /* Modules */,
+				7B99D78C2733A784007E687E /* AppDelegate.swift */,
+				7B99D7E72733B851007E687E /* ViewController.swift */,
+				7B99D7E52733B849007E687E /* Main.storyboard */,
+				7B99D7952733A787007E687E /* Assets.xcassets */,
+				7B99D7972733A787007E687E /* LaunchScreen.storyboard */,
+				7B99D79A2733A787007E687E /* Info.plist */,
+			);
+			path = onelive;
+			sourceTree = "<group>";
+		};
+		7B99D7A22733A787007E687E /* oneliveTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7A32733A787007E687E /* oneliveTests.swift */,
+			);
+			path = oneliveTests;
+			sourceTree = "<group>";
+		};
+		7B99D7AC2733A787007E687E /* oneliveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7AD2733A787007E687E /* oneliveUITests.swift */,
+				7B99D7AF2733A787007E687E /* oneliveUITestsLaunchTests.swift */,
+			);
+			path = oneliveUITests;
+			sourceTree = "<group>";
+		};
+		7B99D7BC2733AA87007E687E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7C32733AABA007E687E /* Base */,
+				7B99D7C22733AAB6007E687E /* Main */,
+				7B99D7C12733AAB2007E687E /* Live */,
+				7B99D7C02733AAAE007E687E /* Games */,
+				7B99D7BF2733AAA8007E687E /* Pay */,
+				7B99D7BE2733AAA3007E687E /* Me */,
+				7B99D7BD2733AA9E007E687E /* Other */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7B99D7BD2733AA9E007E687E /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E2B001F7277AB0A800B72FBD /* OC */,
+				7B86D36C2744AFE80097A5D9 /* Utilities */,
+				7B5E905727423410006A3A53 /* Librarys */,
+				7B99D7F02733BF39007E687E /* Constants */,
+				7B99D7EF2733BF26007E687E /* Services */,
+				7B99D7EC2733BB6B007E687E /* Extension */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		7B99D7BE2733AAA3007E687E /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7D02733AE3B007E687E /* C */,
+				7B99D7D12733AE3B007E687E /* M */,
+				7B99D7D22733AE3B007E687E /* V */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		7B99D7BF2733AAA8007E687E /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7CF2733AE32007E687E /* C */,
+				7B99D7CE2733AE32007E687E /* M */,
+				7B99D7CD2733AE32007E687E /* V */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		7B99D7C02733AAAE007E687E /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7C72733AE0E007E687E /* C */,
+				7B99D7C82733AE0E007E687E /* M */,
+				7B99D7C92733AE0E007E687E /* V */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		7B99D7C12733AAB2007E687E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D8042733C2A5007E687E /* Live */,
+				7B99D8052733C2B4007E687E /* Search */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		7B99D7C22733AAB6007E687E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7D72733B0C2007E687E /* OLNavigationController.swift */,
+				7B99D7D92733B128007E687E /* OLTabBarViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7B99D7C32733AABA007E687E /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7C62733ADBE007E687E /* C */,
+				7B99D7C52733ADB7007E687E /* M */,
+				7B99D7C42733ADA4007E687E /* V */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7B99D7C42733ADA4007E687E /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		7B99D7C52733ADB7007E687E /* M */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7D52733B009007E687E /* OLBaseModel.swift */,
+				7B99D7D32733AEEF007E687E /* OLBaseResponse.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7B99D7C62733ADBE007E687E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7BF3918D275126DD002A2981 /* OLBaseViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7B99D7C72733AE0E007E687E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7DF2733B19F007E687E /* OLGamesViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7B99D7C82733AE0E007E687E /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7B99D7C92733AE0E007E687E /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		7B99D7CA2733AE18007E687E /* M */ = {
+			isa = PBXGroup;
+			children = (
+				7BD5576F27340DD100F1E779 /* OLColumnModel.swift */,
+				7BD557712734283400F1E779 /* OLLiveListModel.swift */,
+				7BD557732734285500F1E779 /* OLLiveItemModel.swift */,
+				7BD55777273428CF00F1E779 /* OLAdvModel.swift */,
+				7B86D36F2744FE300097A5D9 /* OLRoomDetailModel.swift */,
+				7B86D371274649F90097A5D9 /* OLLiveTabItemModel.swift */,
+				7BF3917C274E3B19002A2981 /* OLUserModel.swift */,
+				7BF39178274BBCB4002A2981 /* OLAnchorModel.swift */,
+				7BF39183274F5231002A2981 /* OLActListModel.swift */,
+				7BF39193275258BF002A2981 /* OLLotteryGameModel.swift */,
+				7B777C7727638D630053DD25 /* OLAdvNoticeModel.swift */,
+				7B777C7B2764E8200053DD25 /* OLFastWordsModel.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7B99D7CB2733AE18007E687E /* V */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D80F2733C4E7007E687E /* OLLiveCustomNavigationBar.swift */,
+				7B99D8112733C4F8007E687E /* OLLiveTitleCell.swift */,
+				7B99D8132733C520007E687E /* OLLiveShowCell.swift */,
+				7B99D8152733C535007E687E /* OLLiveFollowHeaderView.swift */,
+				7BF3918527511765002A2981 /* OLLiveUnattentionView.swift */,
+				7B99D8172733C549007E687E /* OLLiveRecommendedHeaderView.swift */,
+				7B99D8192733C55B007E687E /* OLRecommendedHeaderCell.swift */,
+				7B99D81B2733C56C007E687E /* OLLiveNowHeaderView.swift */,
+				7B99D81D2733C582007E687E /* OLLiveBannerView.swift */,
+				7BD5577E2735482100F1E779 /* LiveDetail */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		7B99D7CD2733AE32007E687E /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		7B99D7CE2733AE32007E687E /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7B99D7CF2733AE32007E687E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7E12733B1B6007E687E /* OLPayViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7B99D7D02733AE3B007E687E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7E32733B1D1007E687E /* OLMeViewController.swift */,
+				7B824F8327560F1E0031B306 /* OLMeInformationViewController.swift */,
+				7B8AF349275751B4002D9DF8 /* OLEditInfoViewController.swift */,
+				7B8AF34B27576B98002D9DF8 /* OLEditNicknameViewController.swift */,
+				7B8AF34D27576DD9002D9DF8 /* OLEditSignatureViewController.swift */,
+				7B86CED2275B6030004CB710 /* OLMineLevelViewController.swift */,
+				7B86CED4275B822E004CB710 /* OLMineWalletViewController.swift */,
+				7B8DA6D9275E0CA2000ABA32 /* OLMinePWRecordViewController.swift */,
+				7B8DA6DD275E112E000ABA32 /* OLRecordPageViewController.swift */,
+				7B8A838E2760DB1900764F16 /* OLForDiamondViewController.swift */,
+				7B8DA6CD275DF66C000ABA32 /* OLMineFollowViewController.swift */,
+				7B8DA6CF275DF72B000ABA32 /* OLMineFansViewController.swift */,
+				7B8DA6EB275F6EDA000ABA32 /* OLMineNobleViewController.swift */,
+				7B8A8384275F773E00764F16 /* OLNobleProblemViewController.swift */,
+				7B8DA6D3275E0021000ABA32 /* OLMineActivityViewController.swift */,
+				7B8DA6E3275F4956000ABA32 /* OLMineMessageViewController.swift */,
+				7B8DA6E7275F5D67000ABA32 /* OLSystemMessageViewController.swift */,
+				7B86CEC5275A1C55004CB710 /* Setting */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7B99D7D12733AE3B007E687E /* M */ = {
+			isa = PBXGroup;
+			children = (
+				7B6855F72758D86C002CA615 /* OLAreaCodeModel.swift */,
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7B99D7D22733AE3B007E687E /* V */ = {
+			isa = PBXGroup;
+			children = (
+				7BF391952754C04B002A2981 /* OLCustomNavigationBar.swift */,
+				7B84BCDD2754F79B001D0A57 /* OLMeHeaderView.swift */,
+				7B84BCDF275509F3001D0A57 /* OLMeMenuView.swift */,
+				7B84BCE127551020001D0A57 /* OLMeGamesView.swift */,
+				7B84BCE32755123E001D0A57 /* OLMessageAndTopView.swift */,
+				7BF391972754C544002A2981 /* OLMeCell.swift */,
+				7B824F8527561FC70031B306 /* OLSettingCell.swift */,
+				7B824F8B27564EC00031B306 /* OLInformationHeaderView.swift */,
+				7B8A83882760B77300764F16 /* OLSelectImageView.swift */,
+				7B8A838A2760C29C00764F16 /* OLPickerView.swift */,
+				7B824F892756324D0031B306 /* OLMeInformationCell.swift */,
+				7B824F87275628BF0031B306 /* OLMeFooterButtonView.swift */,
+				7B6855F02758A767002CA615 /* OLCenterTitleCell.swift */,
+				7B86CEC6275A2484004CB710 /* OLSecurityHeaderView.swift */,
+				7B86CECA275A352D004CB710 /* OLTextFieldCell.swift */,
+				7B86CED6275B8472004CB710 /* OLMineWalletCell.swift */,
+				7B8DA6D1275DF88A000ABA32 /* OLUserInfoCell.swift */,
+				7B8DA6D5275E0260000ABA32 /* OLMineActivityNavigationBar.swift */,
+				7B8DA6D7275E0B33000ABA32 /* OLNavBarTitleCell.swift */,
+				7B8DA6DB275E0EF4000ABA32 /* OLMineRecordTopView.swift */,
+				7B8DA6DF275E14AF000ABA32 /* OLRecordTitleCell.swift */,
+				7B8DA6E1275E1750000ABA32 /* OLRecordInfoCell.swift */,
+				7B8DA6E5275F4FE4000ABA32 /* OLMessageCell.swift */,
+				7B8DA6E9275F6386000ABA32 /* OLSystemMessageCell.swift */,
+				7B8DA6ED275F70A7000ABA32 /* OLNobleTopView.swift */,
+				7B8A83902760DCA200764F16 /* OLForDiamondHeaderView.swift */,
+				7B8A83922760DFA300764F16 /* OLForDiamondCell.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		7B99D7DC2733B16B007E687E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7BD5577B2735400C00F1E779 /* Home */,
+				7B99D7FE2733C247007E687E /* OLLiveDetailParentViewController.swift */,
+				7B68E723277597EF0060B39D /* OLLiveDetailVC.h */,
+				7B68E724277597EF0060B39D /* OLLiveDetailVC.m */,
+				7B99D8002733C262007E687E /* OLLiveDetailViewController.swift */,
+				7B99D8022733C274007E687E /* OLRecommendedAnchorViewController.swift */,
+				7BD5578D27366AF900F1E779 /* OLAnchorInfoViewController.swift */,
+				7B276D68273E6B0A001247E6 /* OLAnchorCardViewController.swift */,
+				7B34B8472739354000BDFEC4 /* OLOnlineAudienceViewController.swift */,
+				7B34B849273A5B5E00BDFEC4 /* OLPayActivitiesViewController.swift */,
+				7B276D64273D3A63001247E6 /* OLContributionListViewController.swift */,
+				7B276D5E273BEFDA001247E6 /* OLWatchListViewController.swift */,
+				7BDF72FE2748E7E200D43941 /* OLGuardianInstructionsController.swift */,
+				7B5E904F273FDEDA006A3A53 /* OLStudioGamesViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7B99D7EC2733BB6B007E687E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7ED2733BBEA007E687E /* UIFont.swift */,
+				7B99D81F2733EDA7007E687E /* UIView.swift */,
+				7BD5577C2735446800F1E779 /* UIColor.swift */,
+				7BD55789273651DB00F1E779 /* UIButton.swift */,
+				7B34B84527366F6600BDFEC4 /* CACornerMask.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7B99D7EF2733BF26007E687E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7B6855F42758D53A002CA615 /* Jsons */,
+				7B99D8212733EF86007E687E /* OLAPI.swift */,
+				7B99D8232733F5F7007E687E /* OLAPIManager.swift */,
+				7BD5577927350B0900F1E779 /* OLNavigationManager.swift */,
+				7BF3917A274CD7A5002A2981 /* OLLoginManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7B99D7F02733BF39007E687E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7F12733BF4E007E687E /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		7B99D8042733C2A5007E687E /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D7DC2733B16B007E687E /* C */,
+				7B99D7CA2733AE18007E687E /* M */,
+				7B99D7CB2733AE18007E687E /* V */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		7B99D8052733C2B4007E687E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D8082733C2DD007E687E /* C */,
+				7B99D8072733C2D8007E687E /* M */,
+				7B99D8062733C2D0007E687E /* V */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7B99D8062733C2D0007E687E /* V */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D80B2733C314007E687E /* OLSearchCustomNavigationBar.swift */,
+				7B99D80D2733C336007E687E /* OLSearchTextField.swift */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+		7B99D8072733C2D8007E687E /* M */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = M;
+			sourceTree = "<group>";
+		};
+		7B99D8082733C2DD007E687E /* C */ = {
+			isa = PBXGroup;
+			children = (
+				7B99D8092733C2F9007E687E /* OLSearchViewController.swift */,
+			);
+			path = C;
+			sourceTree = "<group>";
+		};
+		7BD5577B2735400C00F1E779 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E2B00203277B2F6700B72FBD /* 竖屏直播 */,
+				7B99D7DD2733B183007E687E /* OLLiveViewController.swift */,
+				7B99D7F32733C1C8007E687E /* OLLiveRecommendedViewController.swift */,
+				7B99D7F52733C1DA007E687E /* OLLiveFollowViewController.swift */,
+				7B99D7F72733C1F3007E687E /* OLLiveHotViewController.swift */,
+				7B99D7FA2733C216007E687E /* OLLiveNearViewController.swift */,
+				7B99D7FC2733C22C007E687E /* OLLiveGameViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7BD5577E2735482100F1E779 /* LiveDetail */ = {
+			isa = PBXGroup;
+			children = (
+				7BD557812735499A00F1E779 /* OLLiveDetailTopMenuView.swift */,
+				7BD5577F2735484F00F1E779 /* OLAnchorInfoView.swift */,
+				7BD557832735959E00F1E779 /* OLOnlineView.swift */,
+				7BD5578527359D3800F1E779 /* OLRecommendedView.swift */,
+				7BD5578727364A1400F1E779 /* OLLiveDetailCenterMenuView.swift */,
+				7BD5578B2736589E00F1E779 /* OLLiveDetailBottomMenuView.swift */,
+				7B34B84B273A750300BDFEC4 /* OLPayActivitiesTopView.swift */,
+				7B276D60273C32B1001247E6 /* OLListTypeView.swift */,
+				7B276D62273C32E9001247E6 /* OLWatchListCell.swift */,
+				7B276D66273D4483001247E6 /* OLContributionListCell.swift */,
+				7B5E9051273FF25F006A3A53 /* OLStudioGamesTopView.swift */,
+				7B5E9053273FF6C4006A3A53 /* OLGamesBottomView.swift */,
+				7B5E905527400BEE006A3A53 /* OLStudioGamesCell.swift */,
+				7B8A838C2760CDCD00764F16 /* OLLiveAnnouncementView.swift */,
+				7B777C7327635F4D0053DD25 /* OLWinningAnnounceView.swift */,
+				7B777C75276378B90053DD25 /* OLLiveMessageView.swift */,
+			);
+			path = LiveDetail;
+			sourceTree = "<group>";
+		};
+		9617A5826295DB1A44004E32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45FD23D75809E0940C099BA0 /* Pods_onelive.framework */,
+				5BBC39BD27955804BD53CE2D /* Pods_onelive_oneliveUITests.framework */,
+				2A6DAEEE5462D31F06901F5E /* Pods_oneliveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2B001F7277AB0A800B72FBD /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				E261E0322782D3980036F9D6 /* OLKeychain.h */,
+				E261E0332782D3980036F9D6 /* OLKeychain.m */,
+				E261E0302782B6E20036F9D6 /* URLMacros.h */,
+				E261E02F2782B5FA0036F9D6 /* UtilsMacros.h */,
+				E2B00201277B2F0000B72FBD /* CommonManager.h */,
+				E2B00200277B2F0000B72FBD /* CommonManager.m */,
+				E2B001F9277B2EC100B72FBD /* QNNetworkHelper */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
+		E2B001F9277B2EC100B72FBD /* QNNetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E2B001FC277B2EC100B72FBD /* QNNetworkCache.h */,
+				E2B001FA277B2EC100B72FBD /* QNNetworkCache.m */,
+				E2B001FB277B2EC100B72FBD /* QNNetworkHelper.h */,
+				E2B001FD277B2EC100B72FBD /* QNNetworkHelper.m */,
+			);
+			path = QNNetworkHelper;
+			sourceTree = "<group>";
+		};
+		E2B00203277B2F6700B72FBD /* 竖屏直播 */ = {
+			isa = PBXGroup;
+			children = (
+				E261E02A2782AB1C0036F9D6 /* PortraitLiveViewController.h */,
+				E261E02B2782AB1C0036F9D6 /* PortraitLiveViewController.m */,
+				E261E02C2782AB1C0036F9D6 /* PortraitLiveViewController.xib */,
+			);
+			path = "竖屏直播";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B99D7882733A784007E687E /* onelive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B99D7B32733A787007E687E /* Build configuration list for PBXNativeTarget "onelive" */;
+			buildPhases = (
+				55AE7FB161A853719D6CFC24 /* [CP] Check Pods Manifest.lock */,
+				7B99D7852733A784007E687E /* Sources */,
+				7B99D7862733A784007E687E /* Frameworks */,
+				7B99D7872733A784007E687E /* Resources */,
+				5260ED4F3CAF6B37CF8EFE98 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onelive;
+			productName = onelive;
+			productReference = 7B99D7892733A784007E687E /* onelive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B99D79E2733A787007E687E /* oneliveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B99D7B62733A787007E687E /* Build configuration list for PBXNativeTarget "oneliveTests" */;
+			buildPhases = (
+				8781D5CB4ADDB121A83E3707 /* [CP] Check Pods Manifest.lock */,
+				7B99D79B2733A787007E687E /* Sources */,
+				7B99D79C2733A787007E687E /* Frameworks */,
+				7B99D79D2733A787007E687E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B99D7A12733A787007E687E /* PBXTargetDependency */,
+			);
+			name = oneliveTests;
+			productName = oneliveTests;
+			productReference = 7B99D79F2733A787007E687E /* oneliveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B99D7A82733A787007E687E /* oneliveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B99D7B92733A787007E687E /* Build configuration list for PBXNativeTarget "oneliveUITests" */;
+			buildPhases = (
+				EFD120EE018ED60AC1305A82 /* [CP] Check Pods Manifest.lock */,
+				7B99D7A52733A787007E687E /* Sources */,
+				7B99D7A62733A787007E687E /* Frameworks */,
+				7B99D7A72733A787007E687E /* Resources */,
+				AE0D24F3856735B98CBCF849 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B99D7AB2733A787007E687E /* PBXTargetDependency */,
+			);
+			name = oneliveUITests;
+			productName = oneliveUITests;
+			productReference = 7B99D7A92733A787007E687E /* oneliveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B99D7812733A784007E687E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = OL;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7B99D7882733A784007E687E = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+					7B99D79E2733A787007E687E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7B99D7882733A784007E687E;
+					};
+					7B99D7A82733A787007E687E = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7B99D7882733A784007E687E;
+					};
+				};
+			};
+			buildConfigurationList = 7B99D7842733A784007E687E /* Build configuration list for PBXProject "onelive" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B99D7802733A784007E687E;
+			productRefGroup = 7B99D78A2733A784007E687E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B99D7882733A784007E687E /* onelive */,
+				7B99D79E2733A787007E687E /* oneliveTests */,
+				7B99D7A82733A787007E687E /* oneliveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B99D7872733A784007E687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B99D7E62733B849007E687E /* Main.storyboard in Resources */,
+				7B99D7992733A787007E687E /* LaunchScreen.storyboard in Resources */,
+				7B99D7962733A787007E687E /* Assets.xcassets in Resources */,
+				7B6855F62758D56B002CA615 /* AreaCodeList.json in Resources */,
+				E261E02E2782AB1C0036F9D6 /* PortraitLiveViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B99D79D2733A787007E687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B99D7A72733A787007E687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5260ED4F3CAF6B37CF8EFE98 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onelive/Pods-onelive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onelive/Pods-onelive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-onelive/Pods-onelive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55AE7FB161A853719D6CFC24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onelive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8781D5CB4ADDB121A83E3707 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oneliveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0D24F3856735B98CBCF849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onelive-oneliveUITests/Pods-onelive-oneliveUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-onelive-oneliveUITests/Pods-onelive-oneliveUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-onelive-oneliveUITests/Pods-onelive-oneliveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD120EE018ED60AC1305A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onelive-oneliveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B99D7852733A784007E687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8AF34E27576DD9002D9DF8 /* OLEditSignatureViewController.swift in Sources */,
+				7BD557722734283400F1E779 /* OLLiveListModel.swift in Sources */,
+				7B8DA6E0275E14AF000ABA32 /* OLRecordTitleCell.swift in Sources */,
+				7B34B84A273A5B5E00BDFEC4 /* OLPayActivitiesViewController.swift in Sources */,
+				7B86D3702744FE300097A5D9 /* OLRoomDetailModel.swift in Sources */,
+				7B99D8202733EDA7007E687E /* UIView.swift in Sources */,
+				7B68E725277597EF0060B39D /* OLLiveDetailVC.m in Sources */,
+				7B34B8482739354000BDFEC4 /* OLOnlineAudienceViewController.swift in Sources */,
+				7B6855F12758A767002CA615 /* OLCenterTitleCell.swift in Sources */,
+				7B8A8385275F773E00764F16 /* OLNobleProblemViewController.swift in Sources */,
+				7B99D7E82733B851007E687E /* ViewController.swift in Sources */,
+				7B86CEC9275A31BD004CB710 /* OLPhoneAuthenticationViewController.swift in Sources */,
+				7B8DA6DC275E0EF4000ABA32 /* OLMineRecordTopView.swift in Sources */,
+				7BF39184274F5232002A2981 /* OLActListModel.swift in Sources */,
+				7B86CEC4275A1C23004CB710 /* OLAccountsAndSecurityViewController.swift in Sources */,
+				7BD557742734285500F1E779 /* OLLiveItemModel.swift in Sources */,
+				E2B001FE277B2EC100B72FBD /* QNNetworkCache.m in Sources */,
+				7BF39179274BBCB4002A2981 /* OLAnchorModel.swift in Sources */,
+				7BD5577027340DD100F1E779 /* OLColumnModel.swift in Sources */,
+				7B86CED5275B822F004CB710 /* OLMineWalletViewController.swift in Sources */,
+				7B777C7827638D630053DD25 /* OLAdvNoticeModel.swift in Sources */,
+				7B99D7FD2733C22C007E687E /* OLLiveGameViewController.swift in Sources */,
+				7B99D78D2733A784007E687E /* AppDelegate.swift in Sources */,
+				7BD5577A27350B0A00F1E779 /* OLNavigationManager.swift in Sources */,
+				7B824F8C27564EC00031B306 /* OLInformationHeaderView.swift in Sources */,
+				E261E0342782D3980036F9D6 /* OLKeychain.m in Sources */,
+				7B5E9054273FF6C4006A3A53 /* OLGamesBottomView.swift in Sources */,
+				7B99D8142733C520007E687E /* OLLiveShowCell.swift in Sources */,
+				7B99D80A2733C2F9007E687E /* OLSearchViewController.swift in Sources */,
+				7BDF72FF2748E7E200D43941 /* OLGuardianInstructionsController.swift in Sources */,
+				7B824F8627561FC70031B306 /* OLSettingCell.swift in Sources */,
+				7B99D7F62733C1DA007E687E /* OLLiveFollowViewController.swift in Sources */,
+				7B276D5F273BEFDA001247E6 /* OLWatchListViewController.swift in Sources */,
+				7B8DA6EE275F70A7000ABA32 /* OLNobleTopView.swift in Sources */,
+				7B8A83932760DFA300764F16 /* OLForDiamondCell.swift in Sources */,
+				7B824F88275628BF0031B306 /* OLMeFooterButtonView.swift in Sources */,
+				7B99D8122733C4F9007E687E /* OLLiveTitleCell.swift in Sources */,
+				7B8A838D2760CDCD00764F16 /* OLLiveAnnouncementView.swift in Sources */,
+				7B8D1FCE274380EE003BAB1E /* AESCrypt.m in Sources */,
+				7B5E9052273FF261006A3A53 /* OLStudioGamesTopView.swift in Sources */,
+				7BD5578827364A1500F1E779 /* OLLiveDetailCenterMenuView.swift in Sources */,
+				7B8DA6D6275E0260000ABA32 /* OLMineActivityNavigationBar.swift in Sources */,
+				7B8A83912760DCA200764F16 /* OLForDiamondHeaderView.swift in Sources */,
+				7BF3918E275126DD002A2981 /* OLBaseViewController.swift in Sources */,
+				7BD55778273428CF00F1E779 /* OLAdvModel.swift in Sources */,
+				7B8DA6D2275DF88A000ABA32 /* OLUserInfoCell.swift in Sources */,
+				7BF3917D274E3B1A002A2981 /* OLUserModel.swift in Sources */,
+				7B86CECF275A4192004CB710 /* OLSetupLanguageViewController.swift in Sources */,
+				7B84BCE0275509F3001D0A57 /* OLMeMenuView.swift in Sources */,
+				7B99D7D42733AEEF007E687E /* OLBaseResponse.swift in Sources */,
+				7B824F8227560C1F0031B306 /* OLMeSettingViewController.swift in Sources */,
+				7B276D69273E6B0B001247E6 /* OLAnchorCardViewController.swift in Sources */,
+				E2B001FF277B2EC100B72FBD /* QNNetworkHelper.m in Sources */,
+				7B824F8A2756324D0031B306 /* OLMeInformationCell.swift in Sources */,
+				7B8DA6E8275F5D67000ABA32 /* OLSystemMessageViewController.swift in Sources */,
+				7BD5578A273651DB00F1E779 /* UIButton.swift in Sources */,
+				7B86D36E2744B04E0097A5D9 /* TypeConvert.swift in Sources */,
+				7B276D61273C32B1001247E6 /* OLListTypeView.swift in Sources */,
+				7B99D7E42733B1D1007E687E /* OLMeViewController.swift in Sources */,
+				7B8DA6DA275E0CA2000ABA32 /* OLMinePWRecordViewController.swift in Sources */,
+				7B86CECD275A3EE6004CB710 /* OLSetupHideViewController.swift in Sources */,
+				7B8DA6E6275F4FE4000ABA32 /* OLMessageCell.swift in Sources */,
+				7B86CED3275B6030004CB710 /* OLMineLevelViewController.swift in Sources */,
+				7B99D8032733C275007E687E /* OLRecommendedAnchorViewController.swift in Sources */,
+				7B8DA6D0275DF72B000ABA32 /* OLMineFansViewController.swift in Sources */,
+				7B99D8012733C262007E687E /* OLLiveDetailViewController.swift in Sources */,
+				7B777C7427635F4F0053DD25 /* OLWinningAnnounceView.swift in Sources */,
+				7B8DA6CE275DF66C000ABA32 /* OLMineFollowViewController.swift in Sources */,
+				7B8DA6E2275E1750000ABA32 /* OLRecordInfoCell.swift in Sources */,
+				7B276D63273C32E9001247E6 /* OLWatchListCell.swift in Sources */,
+				7B777C7C2764E8210053DD25 /* OLFastWordsModel.swift in Sources */,
+				7BD5578C2736589E00F1E779 /* OLLiveDetailBottomMenuView.swift in Sources */,
+				7BD557842735959E00F1E779 /* OLOnlineView.swift in Sources */,
+				7B99D80C2733C314007E687E /* OLSearchCustomNavigationBar.swift in Sources */,
+				7B8DA6EC275F6EDB000ABA32 /* OLMineNobleViewController.swift in Sources */,
+				7B99D7FF2733C247007E687E /* OLLiveDetailParentViewController.swift in Sources */,
+				7B99D7D82733B0C2007E687E /* OLNavigationController.swift in Sources */,
+				7BD5578E27366AFA00F1E779 /* OLAnchorInfoViewController.swift in Sources */,
+				7B99D7D62733B009007E687E /* OLBaseModel.swift in Sources */,
+				7B86CEC7275A2484004CB710 /* OLSecurityHeaderView.swift in Sources */,
+				7B276D65273D3A63001247E6 /* OLContributionListViewController.swift in Sources */,
+				7B8D1FD0274381D1003BAB1E /* AESCryptManager.swift in Sources */,
+				7B99D80E2733C336007E687E /* OLSearchTextField.swift in Sources */,
+				7B8A838F2760DB1900764F16 /* OLForDiamondViewController.swift in Sources */,
+				7B99D7F42733C1C8007E687E /* OLLiveRecommendedViewController.swift in Sources */,
+				7B8A83892760B77300764F16 /* OLSelectImageView.swift in Sources */,
+				7B99D7E02733B19F007E687E /* OLGamesViewController.swift in Sources */,
+				7BF39194275258C0002A2981 /* OLLotteryGameModel.swift in Sources */,
+				7B84BCE42755123E001D0A57 /* OLMessageAndTopView.swift in Sources */,
+				7B99D7FB2733C216007E687E /* OLLiveNearViewController.swift in Sources */,
+				7B99D81C2733C56C007E687E /* OLLiveNowHeaderView.swift in Sources */,
+				7B8A838B2760C29C00764F16 /* OLPickerView.swift in Sources */,
+				E261E02D2782AB1C0036F9D6 /* PortraitLiveViewController.m in Sources */,
+				7B86CECB275A352D004CB710 /* OLTextFieldCell.swift in Sources */,
+				7B99D81E2733C582007E687E /* OLLiveBannerView.swift in Sources */,
+				7BD557822735499A00F1E779 /* OLLiveDetailTopMenuView.swift in Sources */,
+				7B8DA6D4275E0021000ABA32 /* OLMineActivityViewController.swift in Sources */,
+				7B5E9050273FDEDA006A3A53 /* OLStudioGamesViewController.swift in Sources */,
+				7B824F8427560F1E0031B306 /* OLMeInformationViewController.swift in Sources */,
+				7B99D7EE2733BBEA007E687E /* UIFont.swift in Sources */,
+				7B99D7E22733B1B6007E687E /* OLPayViewController.swift in Sources */,
+				7BF39189275122C8002A2981 /* OLProgressHUD.m in Sources */,
+				7B6855F82758D86C002CA615 /* OLAreaCodeModel.swift in Sources */,
+				7B5E905627400BEE006A3A53 /* OLStudioGamesCell.swift in Sources */,
+				7B8AF34A275751B4002D9DF8 /* OLEditInfoViewController.swift in Sources */,
+				7B8DA6EA275F6386000ABA32 /* OLSystemMessageCell.swift in Sources */,
+				7BD5577D2735446800F1E779 /* UIColor.swift in Sources */,
+				7B99D81A2733C55B007E687E /* OLRecommendedHeaderCell.swift in Sources */,
+				7B99D8222733EF86007E687E /* OLAPI.swift in Sources */,
+				7B8AF34C27576B98002D9DF8 /* OLEditNicknameViewController.swift in Sources */,
+				7B99D8162733C535007E687E /* OLLiveFollowHeaderView.swift in Sources */,
+				7BF391962754C04B002A2981 /* OLCustomNavigationBar.swift in Sources */,
+				7B84BCE227551020001D0A57 /* OLMeGamesView.swift in Sources */,
+				7B8DA6D8275E0B33000ABA32 /* OLNavBarTitleCell.swift in Sources */,
+				7B34B84627366F6600BDFEC4 /* CACornerMask.swift in Sources */,
+				7B99D8182733C549007E687E /* OLLiveRecommendedHeaderView.swift in Sources */,
+				E2B00202277B2F0000B72FBD /* CommonManager.m in Sources */,
+				7B777C76276378BA0053DD25 /* OLLiveMessageView.swift in Sources */,
+				7BF3917B274CD7A5002A2981 /* OLLoginManager.swift in Sources */,
+				7B34B84C273A750400BDFEC4 /* OLPayActivitiesTopView.swift in Sources */,
+				7B99D7F82733C1F3007E687E /* OLLiveHotViewController.swift in Sources */,
+				7B8DA6E4275F4956000ABA32 /* OLMineMessageViewController.swift in Sources */,
+				7B86CED7275B8472004CB710 /* OLMineWalletCell.swift in Sources */,
+				7B8DA6DE275E112E000ABA32 /* OLRecordPageViewController.swift in Sources */,
+				7BF3918627511765002A2981 /* OLLiveUnattentionView.swift in Sources */,
+				7B99D7DA2733B128007E687E /* OLTabBarViewController.swift in Sources */,
+				7B86CED1275B538B004CB710 /* OLSetupPayPasswordViewController.swift in Sources */,
+				7B276D67273D4484001247E6 /* OLContributionListCell.swift in Sources */,
+				7B99D8102733C4E7007E687E /* OLLiveCustomNavigationBar.swift in Sources */,
+				7B84BCDE2754F79B001D0A57 /* OLMeHeaderView.swift in Sources */,
+				7BD5578627359D3800F1E779 /* OLRecommendedView.swift in Sources */,
+				7BF391982754C544002A2981 /* OLMeCell.swift in Sources */,
+				7B99D7DE2733B183007E687E /* OLLiveViewController.swift in Sources */,
+				7B99D7F22733BF4E007E687E /* Constants.swift in Sources */,
+				7B99D8242733F5F7007E687E /* OLAPIManager.swift in Sources */,
+				7BD557802735484F00F1E779 /* OLAnchorInfoView.swift in Sources */,
+				7B86D372274649F90097A5D9 /* OLLiveTabItemModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B99D79B2733A787007E687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B99D7A42733A787007E687E /* oneliveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B99D7A52733A787007E687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B99D7AE2733A787007E687E /* oneliveUITests.swift in Sources */,
+				7B99D7B02733A787007E687E /* oneliveUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B99D7A12733A787007E687E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B99D7882733A784007E687E /* onelive */;
+			targetProxy = 7B99D7A02733A787007E687E /* PBXContainerItemProxy */;
+		};
+		7B99D7AB2733A787007E687E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B99D7882733A784007E687E /* onelive */;
+			targetProxy = 7B99D7AA2733A787007E687E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B99D7972733A787007E687E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B99D7982733A787007E687E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B99D7B12733A787007E687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7B99D7B22733A787007E687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B99D7B42733A787007E687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FE55E602316A1A7D38B230D /* Pods-onelive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TS5LABMG92;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onelive/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/onelive/Modules/Other/Librarys",
+					"$(PROJECT_DIR)/onelive/Modules/Other/Librarys/OLPixel",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BoLe.onelive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "onelive/Modules/Other/Librarys/Onelive-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7B99D7B52733A787007E687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FE55F980C45FEEEE0848D3 /* Pods-onelive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TS5LABMG92;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = onelive/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/onelive/Modules/Other/Librarys",
+					"$(PROJECT_DIR)/onelive/Modules/Other/Librarys/OLPixel",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BoLe.onelive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "onelive/Modules/Other/Librarys/Onelive-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7B99D7B72733A787007E687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D418A53DA2C6D4FDEB67F41 /* Pods-oneliveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BoLe.oneliveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onelive.app/onelive";
+			};
+			name = Debug;
+		};
+		7B99D7B82733A787007E687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6613259F74C24C2747D5D41B /* Pods-oneliveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BoLe.oneliveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onelive.app/onelive";
+			};
+			name = Release;
+		};
+		7B99D7BA2733A787007E687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5EF6E3F21F898F8FECD4B1B /* Pods-onelive-oneliveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BoLe.oneliveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onelive;
+			};
+			name = Debug;
+		};
+		7B99D7BB2733A787007E687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD62EE4D1F3BF17344ED9C65 /* Pods-onelive-oneliveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BoLe.oneliveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onelive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B99D7842733A784007E687E /* Build configuration list for PBXProject "onelive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B99D7B12733A787007E687E /* Debug */,
+				7B99D7B22733A787007E687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B99D7B32733A787007E687E /* Build configuration list for PBXNativeTarget "onelive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B99D7B42733A787007E687E /* Debug */,
+				7B99D7B52733A787007E687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B99D7B62733A787007E687E /* Build configuration list for PBXNativeTarget "oneliveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B99D7B72733A787007E687E /* Debug */,
+				7B99D7B82733A787007E687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B99D7B92733A787007E687E /* Build configuration list for PBXNativeTarget "oneliveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B99D7BA2733A787007E687E /* Debug */,
+				7B99D7BB2733A787007E687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B99D7812733A784007E687E /* Project object */;
+}

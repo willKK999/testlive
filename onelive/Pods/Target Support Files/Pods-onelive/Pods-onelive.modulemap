@@ -1,0 +1,6 @@
+framework module Pods_onelive {
+  umbrella header "Pods-onelive-umbrella.h"
+
+  export *
+  module * { export * }
+}

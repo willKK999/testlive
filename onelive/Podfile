@@ -1,0 +1,49 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'onelive' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for onelive
+  pod 'DeviceKit'             #值型替代品UIDevice
+  pod 'SnapKit'               #自动布局库
+  pod 'Alamofire'             #Http请求库
+  pod 'Kingfisher'            #网络图片请求库
+  pod 'SDCycleScrollView'
+  pod 'SVProgressHUD'
+  pod 'MJRefresh'
+  pod 'HandyJSON'
+  pod 'Toast-Swift'
+  pod 'AttributedString'
+  pod 'SocketRocket'
+  pod 'IQKeyboardManager'
+#  pod 'SDWebImage'
+  pod 'SDWebImageWebPCoder'
+  
+  
+  # OC 使用的框架
+  pod 'AFNetworking', '~> 4.0.1'
+  pod 'YYModel', '~> 1.0.4'
+  pod 'YYCache', '~> 1.0.4'
+  pod 'YYImage', :git => 'https://github.com/QiuYeHong90/YYImage.git'
+  pod 'YYWebImage', '~> 1.0.5'
+  pod 'YYText', '~> 1.0.7'
+  pod 'YYKeyboardManager', '~> 1.0.1'
+  pod 'YYDispatchQueuePool', '~> 1.0.0'
+  pod 'YYAsyncLayer', '~> 1.0.0'
+  pod 'YYCategories', '~> 1.0.4'
+
+  target 'oneliveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'oneliveUITests' do
+    # Pods for testing
+  end
+
+end
